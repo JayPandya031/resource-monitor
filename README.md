@@ -52,6 +52,10 @@ This will startup basic backend which will log data received from the extension
     python app.py
 ```
 
+## Demo
+
+![Demo Popup](/assets/popup-demo.png)
+
 ### Additional details
 
 - Update `http://localhost:5000` endpoint in `background.js` if you are using custom endpoint or using different port with demo backend
