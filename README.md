@@ -1,6 +1,6 @@
 # Resource Monitor
 
-This project is a basic chrome extension called **resource monitor** that shows CPU & Memory usage of the system on which the the extension is installed and also report the usage to backend
+Basic chrome extension called **Resource Monitor** that shows CPU & Memory usage of the system on which the the extension is installed and also report the usage to backend
 
 ## Project Structure
 
@@ -59,4 +59,4 @@ This will startup basic backend which will log data received from the extension
 ### Additional details
 
 - Update `http://localhost:5000` endpoint in `background.js` if you are using custom endpoint or using different port with demo backend
-- Use specific host in `manifest.json` (in host_permissions) in production environments instead of <all_urls> which is fine for educational projects such as this but is not recommanded due to security implications.
+- Use specific host in `manifest.json` (in host_permissions) in production environments instead of `<all_urls>` which is fine for educational projects such as this but is not recommanded due to security implications.
