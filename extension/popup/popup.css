@@ -1,0 +1,56 @@
+body {
+    margin: 0px; 
+    padding: 0.5rem;
+    background-color: beige; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.popup-container {
+    width: 20rem; 
+    height: 15rem; 
+    border-radius: 1rem; 
+    border: 1px solid burlywood; 
+    padding: 0.5rem;
+}
+
+.popup-title {
+    color: brown; 
+    font-size: 1.25rem; 
+    font-weight: 550; 
+    margin-bottom: 1rem;
+}
+
+.cpu-info {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 0.5rem;
+    margin: 0.5rem;
+    color: firebrick;
+    font-size: 0.85rem;
+}
+
+.cpu-info > div:nth-child(odd) {
+    font-weight: 600;
+}
+
+.footer-button {
+    display: flex;
+    padding: 1rem;
+}
+
+#toggleButton {
+    width: 8rem;
+    height: 2rem;
+    outline: none;
+    font-weight: 450;
+    font-family: inherit;
+    border-radius: 0.3rem;
+    border: 1px solid firebrick;
+    background-color: antiquewhite;
+    transition: background-color ease-in-out 300ms;
+}
+
+#toggleButton:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
